@@ -1,11 +1,11 @@
-About shared
-============
+About shared-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/shared-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pyrustic/shared
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/shared-feedstock/blob/main/LICENSE.txt)
 
 Summary: Data exchange and persistence
 
