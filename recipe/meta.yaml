@@ -1,5 +1,5 @@
 {% set name = "shared" %}
-{% set version = "0.0.26" %}
+{% set version = "0.0.27" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/shared-{{ version }}.tar.gz
-  sha256: a32af5a8c0b5e3d7f8ac7b6efce936e2c34b12c470c8645475232e3bbcf5ad66
+  sha256: 35da188fdc64446040a6ca00f439405e9adbf3928fd774b6d479d1435064fbc3
 
 build:
   entry_points:
@@ -21,7 +21,7 @@ requirements:
     - pip
     - python >=3.5
   run:
-    - jesth
+    - jesth >=0.0.8  # Need this version but this pin not present upstream
     - python >=3.5
 
 test:
