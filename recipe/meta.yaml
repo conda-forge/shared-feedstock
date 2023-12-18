@@ -1,5 +1,5 @@
 {% set name = "shared" %}
-{% set version = "0.0.27" %}
+{% set version = "0.0.28" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/shared-{{ version }}.tar.gz
-  sha256: 35da188fdc64446040a6ca00f439405e9adbf3928fd774b6d479d1435064fbc3
+  sha256: a59e358311d09d9a58ae2d7ee982296b11f0c39566eb295401336cbdda3b1035
 
 build:
   entry_points:
