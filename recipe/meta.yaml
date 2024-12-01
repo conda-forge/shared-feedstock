@@ -1,13 +1,13 @@
 {% set name = "shared" %}
-{% set version = "0.0.30" %}
+{% set version = "0.0.31" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/shared-{{ version }}.tar.gz
-  sha256: 35ea8ad5d4e9ad229af0db3f9db103bcc1768049a4fdc4338b627bc934d3d437
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/shared-{{ version }}.tar.gz
+  sha256: ab59785860d292919af7d6a71eb67792619f8568869ce8b4614a2acfb7f777d6
 
 build:
   entry_points:
