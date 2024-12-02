@@ -22,7 +22,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - paradict
+    - kvf
     - python >={{ python_min }}
 
 test:
