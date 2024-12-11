@@ -19,10 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python {{ python_min }}
+    - setuptools
   run:
-    - paradict
-    - python >=3.5
+    - kvf
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -32,6 +33,7 @@ test:
     - shared --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/pyrustic/shared
